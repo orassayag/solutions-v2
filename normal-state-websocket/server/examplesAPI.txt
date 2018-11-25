@@ -1,0 +1,25 @@
+// http://localhost:3000/api/photosAPI/getPhotos
+// http://localhost:3000/api/photosAPI/getPhotos?count=10
+
+// http://localhost:3000/api/photosAPI/getPhotosPager
+// http://localhost:3000/api/photosAPI/getPhotosPager?pageNumber=1&count=10
+
+// http://localhost:3000/api/photosAPI/1
+
+// http://localhost:3000/api/photosAPI/addPhotos
+/* Headers:
+
+User-Agent: Fiddler
+Host: localhost:3000
+Content-Length: 322
+Content-Type: application/json
+
+JsonBody:
+
+{
+        "photos": [
+            {"albumId":"1","id":"801","title":"accusamus beatae ad facilis cum similique qui sunt","url":"https://via.placeholder.com/600/92c952","thumbnailUrl":"https://via.placeholder.com/150/92c952"},
+            {"albumId":"2","id":"802","title":"accusamus beatae ad facilis cum similique qui sunt","url":"https://via.placeholder.com/600/92c952","thumbnailUrl":"https://via.placeholder.com/150/92c952"},
+            {"albumId":"3","id":"803","title":"accusamus beatae ad facilis cum similique qui sunt","url":"https://via.placeholder.com/600/92c952","thumbnailUrl":"https://via.placeholder.com/150/92c952"}
+        ]
+} */

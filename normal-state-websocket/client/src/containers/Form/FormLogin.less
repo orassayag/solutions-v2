@@ -1,0 +1,89 @@
+.form-login {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    background-color: #ffffff;
+    border: double 3px #dddddd;
+    border-top: none;
+    border-bottom: none;
+    font: normal 18px/1.5 'Fira Sans', 'Helvetica Neue', sans-serif;
+    color: #000000;
+    .form-container {
+        width: 40%;
+        margin-top: 2%;
+        background: #eeeeee;
+        padding: 20px;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: relative;
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            margin-top: 20px;
+            * {
+                box-sizing: border-box;
+            }
+            .flex-outer {
+                list-style-type: none;
+                padding: 0;
+                text-align: left;
+                max-width: 800px;
+                margin: 0 auto;
+                li {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    label {
+                        padding: 5px;
+                        font-weight: 300;
+                        letter-spacing: .09em;
+                        &.remember-me {
+                            flex: 1 0 200px;
+                            font-size: 0.7em;
+                        }
+                    }
+                    p {
+                        padding: 5px;
+                        font-weight: 300;
+                        letter-spacing: .09em;
+                        flex: 1 0 120px;
+                        max-width: 220px;
+                        margin: 0;
+                    }
+                }
+                >li {
+                    &:not(:last-child) {
+                        margin-bottom: 20px;
+                    }
+                    >label+* {
+                        flex: 1 0 220px;
+                    }
+                }
+                .flex-inner {
+                    list-style-type: none;
+                    padding: 0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: space-between;
+                    flex: 1 0 220px;
+                    li {
+                        width: 100px;
+                    }
+                }
+                .error-bottom {
+                    color: #ff0000;
+                }
+            }
+        }
+    }
+}

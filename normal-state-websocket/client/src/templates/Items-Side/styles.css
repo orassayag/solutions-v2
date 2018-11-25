@@ -1,0 +1,87 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    color: #404040;
+    font: 100 1em/150% "proxima-nova", Helvetica, sans-serif;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.Grid {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.u-textCenter {
+    text-align: center;
+}
+
+.Demo {
+    padding: 0.8em 1em 0;
+    margin-bottom: 1em;
+    background: rgba(51, 153, 204, 0.2);
+    transition: background-color 0.3s ease;
+    border: 1px solid #33cccc;
+    border-radius: 3px;
+}
+
+.Demo:after {
+    content: "";
+    display: block;
+    margin-top: 0.8em;
+    height: 1px;
+}
+
+.Demo:hover {
+    background: rgba(51, 153, 204, 0.6);
+}
+
+.Grid--gutters {
+    margin-left: -1em;
+}
+
+.Grid--gutters .Grid-cell {
+    padding-left: 1em;
+}
+
+.Grid-cell--center {
+    align-self: center;
+}
+
+.Grid--cols-4>.Grid-cell {
+    flex: 0 0 100%;
+}
+
+@media (min-width: 30em) {
+    .Grid--cols-4>.Grid-cell {
+        flex: 0 0 calc(50% - 1em);
+    }
+
+    .Grid--1of4>.Grid-cell:first-of-type {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 48em) {
+
+    .Grid--cols-4>.Grid-cell {
+        flex: 0 0 30%;
+    }
+
+    .Grid--gutters.Grid--nested .Grid-cell:first-of-type .Demo {
+        margin-right: 0;
+    }
+}
+
+.content-1of4::before {
+    content: "1/4";
+}

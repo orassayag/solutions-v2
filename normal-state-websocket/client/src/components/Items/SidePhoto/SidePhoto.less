@@ -1,0 +1,45 @@
+.GridSide {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.Demo {
+    padding: 0.8em 1em 0;
+    margin-bottom: 1em;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    flex-direction: column;
+    margin-right: 1rem;
+    &:after {
+        display: block;
+    }
+    &.main {
+        display: flex;
+    }
+    &.content {
+        border: 0px;
+        margin-right: 0;
+        flex: 1;
+        flex-flow: row;
+        display: flex;
+        .detail {
+            align-items: flex-start;
+        }
+        &.column {
+            flex-flow: column;
+            .detail {
+                max-width: 150px;
+                text-align: left;
+            }
+        }
+    }
+}
+
+.GridSide--gutters {
+    margin-left: -1em;
+}
+
+.row {
+    flex-flow: column;
+}

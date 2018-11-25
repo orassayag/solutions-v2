@@ -1,0 +1,185 @@
+{"level":"info","message":"Listening to port 3000...","timestamp":"2018-11-23T16:27:09.627Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-23T16:27:09.629Z"}
+{"level":"info","message":"Listening to port 3000...","timestamp":"2018-11-23T17:11:30.749Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-23T17:11:30.751Z"}
+{"level":"info","message":"Listening to port 3000...","timestamp":"2018-11-23T17:13:40.797Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-23T17:13:40.799Z"}
+{"level":"info","message":"Listening to port 3000...","timestamp":"2018-11-23T17:14:20.022Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-23T17:14:20.024Z"}
+{"level":"info","message":"Listening to port 3000...","timestamp":"2018-11-23T17:23:06.826Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-23T17:23:06.828Z"}
+{"message":"TypeError: Cannot read property 'slice' of undefined","stack":"Error: TypeError: Cannot read property 'slice' of undefined\n    at getAllPhotos (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\routes\\photos.js:17:15)\n    at router.get (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\routes\\photos.js:41:29)\n    at newFn (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\index.js:335:12)","level":"error","timestamp":"2018-11-23T17:23:12.541Z"}
+{"message":"TypeError: photos.slice is not a function","stack":"Error: TypeError: photos.slice is not a function\n    at getAllPhotos (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\routes\\photos.js:17:15)\n    at router.get (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\routes\\photos.js:41:29)\n    at newFn (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\index.js:335:12)","level":"error","timestamp":"2018-11-23T17:23:29.221Z"}
+{"message":"TypeError: photos.slice is not a function","stack":"Error: TypeError: photos.slice is not a function\n    at getAllPhotos (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\routes\\photos.js:17:15)\n    at router.get (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\routes\\photos.js:41:29)\n    at newFn (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\node_modules\\express\\lib\\router\\index.js:335:12)","level":"error","timestamp":"2018-11-23T17:23:36.090Z"}
+{"level":"info","message":"Listening to port 3000...","timestamp":"2018-11-23T17:26:09.702Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-23T17:26:09.704Z"}
+{"message":"TypeError: photos.slice is not a function","stack":"Error: TypeError: photos.slice is not a function\n    at getPhotosAPI.then.catch.err (C:\\Or\\Web\\JobTests\\_Solutions_v2\\Server-Node\\core\\photos.js:14:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2018-11-23T17:26:13.538Z"}
+{"level":"info","message":"Listening to port 3000...","timestamp":"2018-11-23T17:26:53.997Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-23T17:26:53.999Z"}
+{"level":"info","message":"Listening to port 3000...","timestamp":"2018-11-23T17:27:19.947Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-23T17:27:19.949Z"}
+{"level":"info","message":"Listening to port 3000...","timestamp":"2018-11-23T17:28:51.563Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-23T17:28:51.565Z"}
+{"level":"info","message":"Listening to port 3000...","timestamp":"2018-11-23T17:30:19.629Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-23T17:30:19.631Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:00:03.322Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:00:03.324Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:01:51.991Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:01:51.993Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:01:56.885Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:01:56.887Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:04:36.495Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:04:36.497Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:05:03.545Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:05:03.546Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:07:06.727Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:07:06.729Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:10:53.583Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:10:53.585Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:12:39.443Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:12:39.445Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:16:25.944Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:16:25.945Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:17:14.261Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:17:14.263Z"}
+{"isValid":true,"errorMessage":null,"level":"error","message":"","timestamp":"2018-11-24T13:17:17.683Z"}
+{"isValid":true,"errorMessage":null,"level":"error","message":"","timestamp":"2018-11-24T13:17:17.683Z"}
+{"isValid":true,"errorMessage":null,"level":"error","message":"","timestamp":"2018-11-24T13:17:17.684Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:18:12.443Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:18:12.445Z"}
+{"isValid":true,"errorMessage":null,"level":"error","message":"","timestamp":"2018-11-24T13:18:16.381Z"}
+{"isValid":true,"errorMessage":null,"level":"error","message":"","timestamp":"2018-11-24T13:18:16.381Z"}
+{"isValid":true,"errorMessage":null,"level":"error","message":"","timestamp":"2018-11-24T13:18:16.382Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:20:50.542Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:20:50.543Z"}
+{"isValid":true,"errorMessage":null,"level":"error","message":"","timestamp":"2018-11-24T13:20:55.395Z"}
+{"isValid":true,"errorMessage":null,"level":"error","message":"","timestamp":"2018-11-24T13:20:55.396Z"}
+{"isValid":true,"errorMessage":null,"level":"error","message":"","timestamp":"2018-11-24T13:20:55.396Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:22:17.784Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:22:17.786Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:23:23.018Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:23:23.020Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:23:57.972Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:23:57.974Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:25:29.241Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:25:29.243Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:26:19.207Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:26:19.209Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:28:50.226Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:28:50.227Z"}
+{"message":"Error: Failed to get photos","stack":"Error: Error: Failed to get photos\n    at getPhotosAPI.then.catch.err (C:\\Or\\Web\\JobTests\\_Solutions_v2\\normal-state-websocket\\server\\core\\photos.js:17:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2018-11-24T13:29:12.482Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:30:34.521Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:30:34.522Z"}
+{"message":"Error: Failed to get photos","stack":"Error: Error: Failed to get photos\n    at getPhotosAPI.then.catch.err (C:\\Or\\Web\\JobTests\\_Solutions_v2\\normal-state-websocket\\server\\core\\photos.js:17:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2018-11-24T13:31:02.890Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:31:34.964Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:31:34.966Z"}
+{"message":"Error: Failed to get photos","stack":"Error: Error: Failed to get photos\n    at getPhotosAPI.then.catch.err (C:\\Or\\Web\\JobTests\\_Solutions_v2\\normal-state-websocket\\server\\core\\photos.js:17:19)\n    at process._tickCallback (internal/process/next_tick.js:68:7)","level":"error","timestamp":"2018-11-24T13:31:52.666Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:35:03.523Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:35:03.524Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:36:23.664Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:36:23.667Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:37:14.793Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:37:14.795Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:38:33.741Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:38:33.742Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:41:34.852Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:41:34.853Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:43:13.107Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:43:13.109Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:44:38.595Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:44:38.597Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:45:31.264Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:45:31.265Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:46:29.854Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:46:29.856Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:47:34.956Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:47:34.958Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:48:13.371Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:48:13.372Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:49:00.856Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:49:00.858Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:50:26.832Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:50:26.833Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T13:52:09.256Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T13:52:09.257Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T14:37:12.480Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T14:37:12.482Z"}
+{"message":"validateGetPhotos is not a function","stack":"TypeError: validateGetPhotos is not a function\n    at router.get (C:\\Or\\Web\\JobTests\\_Solutions_v2\\normal-state-websocket\\server\\routes\\photosAPI.js:45:28)\n    at newFn (C:\\Or\\Web\\JobTests\\_Solutions_v2\\normal-state-websocket\\server\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Or\\Web\\JobTests\\_Solutions_v2\\normal-state-websocket\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Or\\Web\\JobTests\\_Solutions_v2\\normal-state-websocket\\server\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Or\\Web\\JobTests\\_Solutions_v2\\normal-state-websocket\\server\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Or\\Web\\JobTests\\_Solutions_v2\\normal-state-websocket\\server\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Or\\Web\\JobTests\\_Solutions_v2\\normal-state-websocket\\server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Or\\Web\\JobTests\\_Solutions_v2\\normal-state-websocket\\server\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\Or\\Web\\JobTests\\_Solutions_v2\\normal-state-websocket\\server\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Or\\Web\\JobTests\\_Solutions_v2\\normal-state-websocket\\server\\node_modules\\express\\lib\\router\\index.js:275:10)","level":"error","timestamp":"2018-11-24T14:37:48.032Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T14:39:11.286Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T14:39:11.288Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T14:41:04.216Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T14:41:04.218Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T14:48:12.975Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T14:48:12.977Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T14:48:48.675Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T14:48:48.676Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T14:54:04.421Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T14:54:04.422Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T14:55:00.634Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T14:55:00.636Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T14:56:14.212Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T14:56:14.214Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T14:56:22.401Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T14:56:22.402Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T14:58:05.199Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T14:58:05.201Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T15:06:14.366Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T15:06:14.368Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-24T15:07:01.777Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-24T15:07:01.778Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-25T04:21:45.821Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-25T04:21:45.823Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:24:43.143Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:27:24.502Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:27:32.054Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:27:41.338Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:28:52.471Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:29:03.887Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:29:37.109Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:30:30.810Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:32:45.139Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-25T04:33:59.214Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-25T04:33:59.216Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:34:04.123Z"}
+{"level":"info","message":"Listening to express server port 3000...","timestamp":"2018-11-25T04:34:37.997Z"}
+{"level":"info","message":"Server on development environment...","timestamp":"2018-11-25T04:34:37.999Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:34:40.361Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:36:54.464Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:36:59.521Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:37:35.748Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:38:05.573Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:38:08.881Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:38:14.399Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:38:49.825Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:39:09.372Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:39:22.374Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:39:27.317Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:39:37.379Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:39:45.043Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:40:05.241Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:40:51.650Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:40:58.009Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:41:56.244Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:42:05.716Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:43:58.168Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:46:40.166Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:47:05.354Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:48:26.645Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:48:35.141Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:48:51.637Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:50:48.654Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:50:58.195Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:52:29.386Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:54:10.636Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:54:23.185Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:54:41.089Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:57:47.355Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:58:12.054Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:58:20.139Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:58:23.337Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:59:10.225Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T04:59:43.245Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T05:00:45.193Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T05:02:42.252Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T05:04:38.064Z"}
+{"level":"info","message":"Client disconnected","timestamp":"2018-11-25T05:05:26.735Z"}

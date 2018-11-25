@@ -1,0 +1,95 @@
+.table-content {
+    padding: 20px;
+    position: relative;
+    top: -73px;
+}
+
+.table-top-titles {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    background-color: #ffffff;
+    border: double 3px #dddddd;
+    border-top: none;
+    border-bottom: none;
+    .table-top-box {
+        padding: 20px;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        position: relative;
+        .table {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 0 3em 0;
+            padding: 0;
+            position: relative;
+            top: 3px;
+            left: 3px;
+        }
+        .table-cell {
+            box-sizing: border-box;
+            flex-grow: 1;
+            width: 100%;
+            padding: 0.8em 1.2em;
+            overflow: hidden;
+            list-style: none;
+            border: solid 3px #ffffff;
+            background: rgba(112, 128, 144, 0.2);
+            margin: -3px 0 0 -3px;
+            background-color: #ffffff;
+            border-color: #e2e6e9;
+            >h3 {
+                margin: 0;
+            }
+        }
+        .table--3cols {
+            >.table-cell {
+                max-width: 17.5%;
+                img {
+                    max-width: 100%;
+                }
+            }
+            >.table-cell-large {
+                max-width: 30%;
+                img {
+                    max-width: 100%;
+                }
+            }
+        }
+        h3 {
+            margin-top: 0;
+            font-size: 1.2em;
+        }
+        .table-cell--head {
+            background-color: slategrey;
+            border-color: #5a6673;
+            color: #ffffff;
+            >h3 {
+                color: #ffffff;
+            }
+        }
+        .order0 {
+            order: 0;
+        }
+        .order1 {
+            order: 1;
+        }
+        .order2 {
+            order: 2;
+        }
+        .order3 {
+            order: 3;
+        }
+        .order4 {
+            order: 4;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+.styled-checkbox {
+    position: absolute;
+    opacity: 0;
+    &:hover+label {
+        &:before {
+            background: #f35429;
+        }
+    }
+    &:focus+label {
+        &:before {
+            box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);
+        }
+    }
+    &:checked+label {
+        &:before {
+            background: #f35429;
+        }
+    }
+}
+
+.styled-checkbox+label {
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+    &:before {
+        content: '';
+        margin-right: 10px;
+        display: inline-block;
+        vertical-align: text-top;
+        width: 20px;
+        height: 20px;
+        background: #ffffff;
+    }
+}

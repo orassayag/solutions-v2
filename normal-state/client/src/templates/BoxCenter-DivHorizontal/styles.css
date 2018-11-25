@@ -1,0 +1,26 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.box {
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    position: relative;
+    background-color: #a4c9cf;
+    font-size: 2em;
+}

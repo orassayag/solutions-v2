@@ -1,0 +1,7 @@
+// http://localhost:3000/api/photosFile/getPhotos
+// http://localhost:3000/api/photosFile/getPhotos?count=10
+
+// http://localhost:3000/api/photosFile/getPhotosPager
+// http://localhost:3000/api/photosFile/getPhotosPager?pageNumber=1&count=10
+
+// http://localhost:3000/api/photosFile/1
