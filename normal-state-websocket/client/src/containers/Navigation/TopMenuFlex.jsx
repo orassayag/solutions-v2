@@ -6,18 +6,18 @@ class TopMenuFlex extends Component {
     state = {
     };
 
-/*     constructor(props) {
-        super(props);
+    /*     constructor(props) {
+            super(props);
 
-        this.handleAuthenticationInputChange = this.handleAuthenticationInputChange.bind(this);
-    }
+            this.handleAuthenticationInputChange = this.handleAuthenticationInputChange.bind(this);
+        }
 
-    handleAuthenticationInputChange = (e) => {
-        e.preventDefault();
-    } */
+        handleAuthenticationInputChange = (e) => {
+            e.preventDefault();
+        } */
 
     render() {
-/*         const { state } = this; */
+        /*         const { state } = this; */
 
         return (
             <div>

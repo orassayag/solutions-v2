@@ -37,10 +37,10 @@ const RowPhoto = (props) => {
                     </div>
                 </div>
                 <div className="Demo content">
-                        <div className="detail">
-                            Url: <a href={photo.url} rel="noopener noreferrer" target="_blank">{photo.url}</a>
-                        </div>
+                    <div className="detail">
+                        Url: <a href={photo.url} rel="noopener noreferrer" target="_blank">{photo.url}</a>
                     </div>
+                </div>
             </div>
         </div>
     );

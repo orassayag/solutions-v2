@@ -20,7 +20,7 @@ h2,
 h3,
 h4 {
     font-weight: 900;
-    color: #333;
+    color: #333333;
     margin: 1.5em 0 0.5em;
 }
 
@@ -155,7 +155,7 @@ hr {
     text-decoration: none;
     display: block;
     padding: 1em;
-    color: #333;
+    color: #333333;
 }
 
 .navigation a:hover {

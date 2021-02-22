@@ -17,7 +17,7 @@ class BoxCenterDivHorizontal extends Component {
     }
 
     render() {
-/*         const { state } = this; */
+        /*         const { state } = this; */
 
         return (
             <div className="container-horizontal">
