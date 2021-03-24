@@ -1,6 +1,6 @@
 import api from '../api';
 
-// Handle the call to the API to preform get all the photos.
+// Handle the call to the API perform a 'GET' request to get all the photos.
 export const getAllPhotos = (data) => {
     return new Promise((resolve, reject) => {
         try {
@@ -18,7 +18,7 @@ export const getAllPhotos = (data) => {
     });
 };
 
-// Handle the call to the API to preform get single photo by id.
+// Handle the call to the API to perform a 'GET' request for a single photo by Id.
 export const getPhotoById = (photoId) => {
     return new Promise((resolve, reject) => {
         try {

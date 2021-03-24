@@ -15,7 +15,7 @@ const getPhotosAPI = async () => {
     return response;
 }
 
-// Get all photos from external json file.
+// Get all photos from an external json file.
 const getPhotosFile = (count) => {
 
     const allPhotos = require('../datafile/photos.json');

@@ -6,7 +6,7 @@ const app = express();
 require('./startup/logging')();
 require('./startup/routes')(app);
 
-// Listen to the server
+// Listen to the server.
 const port = process.env.PORT || config.PORT;
 module.exports = app.listen(port, () => {
     winston.info(`Listening to port ${port}...`);

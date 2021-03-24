@@ -1,4 +1,4 @@
-// Get all photos from external json file.
+// Get all photos from an external json file.
 const getPhotosFile = () => {
     const allPhotos = require('../datafile/photos.json');
     return allPhotos;

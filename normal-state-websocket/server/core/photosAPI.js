@@ -2,8 +2,8 @@ const { getPhotosAPI } = require('../api/api');
 const { createPhotosFromJsons } = require('../models/photo');
 const { CacheService } = require('../utils/CacheService');
 
-const ttl = 60 * 60 * 1; // cache for 1 Hour
-const cache = new CacheService(ttl); // Create a new cache service instance
+const ttl = 60 * 60 * 1; // Cache for 1 Hour.
+const cache = new CacheService(ttl); // Create a new cache service instance.
 
 const loadPhotos = async () => {
     let photos = null;

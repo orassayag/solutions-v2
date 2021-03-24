@@ -82,27 +82,27 @@ router.get('/getPhotosPager', async (req, res) => {
     return res.status(200).send(allPhotos);
 });
 
-// Get specific photo by id and return it.
+// Get a specific photo by Id and return it.
 router.get('/:id', async (req, res) => {
     // Validate that the request body is not empty and the request body parameters.
     if (!req) {
-        return res.status(400).send('No request object');
+        return res.status(400).send('No request object.');
     }
 
     if (!req.params.id) {
-        return res.status(400).send('No id parameter');
+        return res.status(400).send('No Id parameter.');
     }
 
     // Get all the photos.
     const allPhotos = await getAllPhotosAPI();
     if (!allPhotos) {
-        return res.status(400).send('Failed to get all photos');
+        return res.status(400).send('Failed to get all photos.');
     }
 
     const photoId = Number(req.params.id.trim());
     const photo = allPhotos.find(p => p.id === photoId);
     if (!photo) {
-        return res.status(404).send(`Photo ${photoId} not found`);
+        return res.status(404).send(`Photo ${photoId} not found.`);
     }
 
     // Return selected photo.
@@ -125,7 +125,7 @@ router.post('/addPhotos', async (req, res) => {
 
     const io = req.app.get('socketio');
     if (!io) {
-        return res.status(400).send('Socket not found');
+        return res.status(400).send('Socket not found.');
     }
     io.emit('newPhotos', photos);
 

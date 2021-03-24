@@ -9,7 +9,7 @@ const portExpressServer = process.env.PORT_EXPRESS_SERVER || config.PORT_EXPRESS
 require('./startup/logging')();
 require('./startup/routes')(app);
 
-// Listen to the express.
+// Listen to the server.
 const server = app.listen(portExpressServer, () => {
     winston.info(`Listening to express server port ${portExpressServer}...`);
     winston.info(`Server on ${environment} environment...`);

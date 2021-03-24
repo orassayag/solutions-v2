@@ -9,16 +9,9 @@ import TableFlexBoxTopTitles from './Table/TableFlexBoxTopTitles';
 import ItemsSide from './Items/ItemsSide';
 import ItemsRows from './Items/ItemsRows';
 import TopMenuFlex from './Navigation/TopMenuFlex';
+
 export {
-    App,
-    BoxCenterDivHorizontal,
-    BoxCenterDivHorizontalVertical,
-    BoxCenterDivVertical,
-    FooterMenu,
-    FormMultiFlex,
-    FormLogin,
-    TableFlexBoxTopTitles,
-    ItemsSide,
-    ItemsRows,
+    App, BoxCenterDivHorizontal, BoxCenterDivHorizontalVertical, BoxCenterDivVertical,
+    FooterMenu, FormMultiFlex, FormLogin, TableFlexBoxTopTitles, ItemsSide, ItemsRows,
     TopMenuFlex
 };
