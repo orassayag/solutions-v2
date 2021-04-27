@@ -1,5 +1,6 @@
 {
     "cSpell.words": [
+        "Assayag",
         "CNAME",
         "Cond",
         "Gzipping",
@@ -31,5 +32,16 @@
         "svgr",
         "todos",
         "unregister"
-    ]
+    ],
+    "cSpell.ignorePaths": [
+        "normal-state/server/datafile/photos.json",
+        "normal-state-websocket/client/src/templates/Grid-Flex/index.html",
+        "normal-state-websocket/client/package-lock.json",
+        "normal-state/client/package-lock.json",
+        "normal-state-websocket/server/datafile/photos.json",
+        "normal-state/client/src/templates/Grid-Flex/index.html",
+        "normal-state/server/package-lock.json",
+        "normal-state-websocket/server/package-lock.json",
+        "normal-state-websocket/server/examplesAPI.txt"
+    ],
 }

@@ -8,7 +8,7 @@ Clone the project to your computer.
 
 ### Prerequisites
 
-You'll need to install VS Code, Node, and clone the project, run npm i + npm start.
+You'll need to install VSCode, Node, and clone the project, run npm i + npm start.
 
 ## Built With
 
