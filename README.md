@@ -8,12 +8,12 @@ Clone the project to your computer.
 
 ### Prerequisites
 
-You'll need to install VSCode, Node, and clone the project, run npm i + npm start.
+You'll need to install VSCode, Node, and clone the project, and in the terminal run: npm i + npm start.
 
 ## Built With
 
-* [Node.JS](https://nodejs.org/en/) - The web framework used - server side.
-* [React.JS](https://reactjs.org/) - The web framework used - client side.
+* [Node.js](https://nodejs.org/en/) - The web framework used - Server side.
+* [React.js](https://reactjs.org/) - The web framework used - Client side.
 
 ## Contributing
 
@@ -29,7 +29,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * Or Assayag <orassayag@gmail.com>
 * GitHub: https://github.com/orassayag
 * StackOverFlow: https://stackoverflow.com/users/4442606/or-assayag?tab=profile
-* LinkedIn: https://il.linkedin.com/in/orassayag
+* LinkedIn: https://linkedin.com/in/orassayag
 
 ## License
 
