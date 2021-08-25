@@ -8,12 +8,13 @@ Clone the project to your computer.
 
 ### Prerequisites
 
-You'll need to install VSCode, Node, and clone the project, and in the terminal run: npm i + npm start.
+You'll need to install VSCode, Node, and clone the project, and in the terminal run: 'npm i' + 'npm start'.
 
 ## Built With
 
-* [Node.js](https://nodejs.org/en/) - The web framework used - Server side.
-* [React.js](https://reactjs.org/) - The web framework used - Client side.
+* [Node.js](https://nodejs.org/en) - The web framework used - Server side.
+* [React.js](https://reactjs.org) - The web framework used - Client side.
+* [Git](https://git-scm.com) - Source management.
 
 ## Contributing
 
@@ -21,7 +22,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
+We use [SemVer](http://semver.org) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
 ## Author
 
@@ -33,4 +34,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## License
 
-This application has an UNLICENSED License.
+This application has an UNLICENSED license.
