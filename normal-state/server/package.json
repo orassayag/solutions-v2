@@ -1,8 +1,8 @@
 {
-  "name": "solution",
+  "name": "solutions-v2-server",
   "version": "1.0.0",
   "private": false,
-  "description": "",
+  "description": "Express.js server template with REST API, caching, and photo gallery endpoints",
   "repository": {
     "type": "git",
     "url": "git://github.com/orassayag/solutions-v2.git"
@@ -11,9 +11,19 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "express",
+    "nodejs",
+    "rest-api",
+    "server",
+    "template",
+    "caching",
+    "cors",
+    "winston",
+    "photo-gallery"
+  ],
+  "author": "Or Assayag <orassayag@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
     "cors": "^2.8.5",

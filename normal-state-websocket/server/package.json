@@ -1,8 +1,8 @@
 {
-  "name": "solution",
+  "name": "solutions-v2-websocket-server",
   "version": "1.0.0",
   "private": false,
-  "description": "",
+  "description": "Express.js server template with WebSocket support, REST API, and Socket.io integration",
   "repository": {
     "type": "git",
     "url": "git://github.com/orassayag/solutions-v2.git"
@@ -11,9 +11,20 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "express",
+    "nodejs",
+    "websocket",
+    "socket.io",
+    "rest-api",
+    "server",
+    "template",
+    "realtime",
+    "caching",
+    "cors"
+  ],
+  "author": "Or Assayag <orassayag@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
     "cors": "^2.8.5",

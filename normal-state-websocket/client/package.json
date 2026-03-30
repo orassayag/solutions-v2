@@ -1,11 +1,25 @@
 {
-    "name": "solution",
+    "name": "solutions-v2-websocket-client",
     "version": "0.1.0",
     "private": false,
+    "description": "React.js frontend template with WebSocket support and Socket.io client integration",
     "repository": {
         "type": "git",
         "url": "git://github.com/orassayag/solutions-v2.git"
     },
+    "keywords": [
+        "react",
+        "reactjs",
+        "websocket",
+        "socket.io",
+        "frontend",
+        "template",
+        "realtime",
+        "spa",
+        "webpack"
+    ],
+    "author": "Or Assayag <orassayag@gmail.com>",
+    "license": "MIT",
     "dependencies": {
         "@babel/core": "7.1.0",
         "@svgr/webpack": "2.4.1",
